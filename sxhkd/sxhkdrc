@@ -1,0 +1,22 @@
+#Rofi
+
+super + d 
+    rofi -show drun -show-icons -font "Noto sans 14"
+
+shift + ctrl + f 
+    ~/Volumes/scripts/i3-scratchpads.sh \ 
+        'scratch-browser' 'chromium --incognito'
+
+shift + ctrl + k 
+    ~/Volumes/scripts/i3-scratchpads.sh \ 
+        'scratch-kitty' 'kitty'
+
+shift + ctrl + p 
+    ~/Volumes/scripts/i3-scratchpads.sh \ 
+        'scratch-spotify' 'spotify-launcher'
+
+shift + ctrl + alt + space 
+    ~/Volumes/scripts/toggle-keyboard-keymap.sh 
+
+
+
